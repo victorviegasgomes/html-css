@@ -1,0 +1,14 @@
+body{
+    height: 96vh;
+	background-color: black;
+    background-image: url("imagem/wallpaper002.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+main{
+	background-color: white;
+    width: 380px;
+    margin: auto;
+    padding: 10px;
+}

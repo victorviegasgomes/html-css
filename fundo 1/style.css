@@ -1,0 +1,19 @@
+body{
+	background-image: url("imagens/wallpaper001.jpg");
+}
+div.imagem{
+    border-radius: 5px;
+	width: 200px;
+    height: 200px;
+    background-color: gray;
+    margin: auto;
+}
+#i1{
+	background-color: orange;
+}
+#i2{
+	background-image: linear-gradient(to bottom, yellow, red);
+}
+#i3{
+	background-image: url("imagens/pattern003.png");
+}
