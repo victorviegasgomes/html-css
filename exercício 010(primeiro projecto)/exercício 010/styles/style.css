@@ -1,0 +1,110 @@
+#charset utf-8;
+#font-face{
+				font-family: TIMESS;
+				src: url("..fontes/TIMESS_.ttf") format(truetype);
+					font-family: android;
+				src: url("..fontes/idroid.otf") format(opentype);
+}
+:root{
+				--verde1: #C5EBD6;
+				--verde2: #83E1AD;
+				--verde3: #3DDC84;
+				--verde4: #2FA866;
+				--verde5: #1A5C37;
+				--verde6: #063D1E;
+				
+				--fonte: "idroid"
+}
+body{
+				background-color: #E4FFE4;
+				font-family: arial, verdana, helvetica, sans-serif;
+				font-size: 14px;
+}
+header{
+				background-color: #1A5C37;
+				height: 120px;
+				text-align: center;
+				padding-top: 10px;
+				width: 100%;
+				color: white;
+				background-image: linear-gradient(to bottom, #2FA866, #1A5C37);
+}
+main p{
+				margin: 10px 0px;
+				text-align: justify;
+				text-indent: 30px;
+				line-height: 1em;
+}
+header >h1{
+				text-shadow: 2px 2px 0px rgba(0, 0, 0, 210);
+}
+header >p{
+				text-shadow: 2px 3px 0px rgba(0, 0, 0, 210);
+}
+nav{
+				background-color: #1A5C37;
+				padding: 10px;
+				box-shadow: 0px 0px 0px rgba(0, 0, 0, 281);
+}
+nav >a{
+				text-decoration: none;
+				color: #2FA866;
+				padding: 10px;
+				font-weight: bold;
+}
+nav >a:hover{
+				background-color: #3DDC84;
+				border-radius: 3px;
+				transition-duration: 0.5s;
+}
+main{
+				background-color: white;
+				min-width: 320px;
+				max-width: 1000px;
+				margin: auto;
+				padding: 0px 5px 0px 5px;
+				border-bottom-left-radius: 5px;
+				border-bottom-right-radius: 5px;
+				box-shadow: 0px 0px 2px rgba(0, 0, 0, 255);
+}
+img{
+				width: 100%
+}
+aside{
+				background-color: #C5EBD6;
+				border-radius: 5px;
+				box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.89);
+}
+aside ul{
+				list-style-position: inside;
+				columns: 2;
+				text-decoration: none;
+				list-style-type: "\2714";
+				font-size: 16px;
+}
+aside h3{
+				background-color: #1A5C37;
+				margin: -10px -10px 0px -10pxpx;
+				padding: 10px;
+				border-radius: 10px 10px 0px 0px;
+}
+.bugdroid{
+				width: 100%;
+				max-width: 300px;
+				min-width: 299px;
+}
+footer{
+				background-color: #1A5C37;
+				text-align: center;
+				padding: 5px;
+				color: white;
+				font-size: 10px;
+}
+footer a{
+				text-decoration: none;
+				color: white;
+}
+footer a:hover{
+				text-decoration: underline;
+				color: var(--verde3);
+}

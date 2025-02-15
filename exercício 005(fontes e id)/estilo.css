@@ -1,0 +1,20 @@
+body{
+				/*background-color: rgb(129, 189, 255);*/
+}
+#zero{
+				color: rgb(0, 0, 198);
+				text-align: center;
+}
+#um{
+				font-family: arial, sans-serif;
+}
+#dois{
+				font-family: serif;
+}
+#tres{
+				font-family: monospace;
+}
+#quatro{
+				font-family: hand-write;
+}
+
