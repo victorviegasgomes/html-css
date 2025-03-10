@@ -1,21 +1,20 @@
-#charset utf-8;
-#font-face{
+@charset utf-8;
+@font-face{
 				font-family: TIMESS;
-				src: url("..fontes/TIMESS_.ttf") format(truetype);
+				src: url("../fontes/TIMESS_.ttf") format(truetype);
 					font-family: android;
-				src: url("..fontes/idroid.otf") format(opentype);
+				src: url("../fontes/idroid.otf") format(opentype);
 }
 :root{
-				--verde1: #C5EBD6;
-				--verde2: #83E1AD;
-				--verde3: #3DDC84;
-				--verde4: #2FA866;
-				--verde5: #1A5C37;
-				--verde6: #063D1E;
-				
-				--fonte: "idroid"
+				--fonte1: "android";
 }
-body{
+*{
+				margin: 0px;
+				padding: 0px;
+}
+html, body{
+				width: 100vw;
+				height: 100vh;
 				background-color: #E4FFE4;
 				font-family: arial, verdana, helvetica, sans-serif;
 				font-size: 14px;
@@ -25,7 +24,7 @@ header{
 				height: 120px;
 				text-align: center;
 				padding-top: 10px;
-				width: 100%;
+				/*width: 100%;*/
 				color: white;
 				background-image: linear-gradient(to bottom, #2FA866, #1A5C37);
 }
@@ -44,7 +43,7 @@ header >p{
 nav{
 				background-color: #1A5C37;
 				padding: 10px;
-				box-shadow: 0px 0px 0px rgba(0, 0, 0, 281);
+				box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.285);
 }
 nav >a{
 				text-decoration: none;
@@ -59,8 +58,8 @@ nav >a:hover{
 }
 main{
 				background-color: white;
-				min-width: 320px;
-				max-width: 1000px;
+				/*min-width: 320px;*/
+				max-width: 980px;
 				margin: auto;
 				padding: 0px 10px 0px 10px;
 				border-bottom-left-radius: 5px;
@@ -88,9 +87,9 @@ aside h3{
 				padding: 10px;
 				border-radius: 10px 10px 0px 0px;
 }
-.bugdroid{
+#bugdroid{
 				width: 100%;
-				max-width: 300px;
+				/*max-width: 300px;*/
 				min-width: 299px;
 }
 footer{

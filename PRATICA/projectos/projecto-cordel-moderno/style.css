@@ -1,0 +1,83 @@
+
+@charset "utf-8";
+@font-face{
+	font-family: "handwrite";
+	src: url("fontes/Sriracha-Regular.ttf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+:root{
+	--fonte1: "handwrite";
+}
+*{
+								padding: 0px;
+								margin: 0px;
+
+}
+html, body{
+	background-color: darkgray;
+	height: 100vh;
+	width: 100vw;
+}
+header{
+	background-color: black;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+	font-family: var(--fonte1);
+}
+header > h1{
+	font-variant: small-caps;
+}
+header > p{
+	padding-bottom: 20px;
+}
+a{
+	text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+a:hover{
+	text-decoration: underline;
+}
+section{
+	line-height: 2em;
+    font-family: var(--fonte1);
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-bottom: 10vh;
+}
+section > p{
+	padding-bottom: 2em;
+}
+.normal{
+	background-color: white;
+    color: black;
+}
+.imagem > p{
+	background-color: rgba(51,51,51,0.252);
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.178);
+}
+.imagem{
+	box-shadow: inset 6px 6px 13px 0px rgba(0,0,0,0.473);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#img1{
+	background-image: url("imagens/background001.jpg");
+    background-position: right center;
+}
+section#img2{
+	background-image: url("imagens/background002.jpg");
+    background-position: right center;
+}
+footer{
+	background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+	font-family: sans-serif;
+}
