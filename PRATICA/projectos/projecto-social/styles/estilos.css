@@ -1,0 +1,20 @@
+*{
+				margin: 0px;
+				padding: 0px;
+				font-family: arial, helvetica, sans-serif;
+}
+img{
+				width: 100vw;
+}
+a{
+				display: block;
+				background-color: darkred;
+				padding: 30px;
+				text-align: center;
+				text-decoration: none;
+				color: white;
+}
+a:hover{
+				background-color: red;
+}
+
