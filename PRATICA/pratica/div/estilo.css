@@ -1,0 +1,25 @@
+*{
+				margin: 0px;
+				padding: 0px;
+}
+body{
+				width: 100vw;
+				height: 100vh;
+				background-color: red;
+				position: relative;
+}
+main{
+				position: relative;
+				background-color: green;
+}
+div{
+				background-color: blue;
+				width: 200px;
+				height: 200px;
+				font-size: 2em;
+				font-family: serif;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+}

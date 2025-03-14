@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+				<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+				<title>login</title>
+</head>
+<body>
+				<h1>cadastre-se</h1>
+				<section>
+								<form action="registrar.php" method="get" autocomplete="on">
+												<p>
+																<label for="idnome">nome</label>
+																<input type="user-name" name="nome" id="idnome" autocomplete="user-name" required="required">
+												</p>
+												<p>
+																<label for="idsenha">senha</label>
+																<input type="password" required="required" id="idsenha" name="senha">
+												</p>
+												<p>
+																<label for="idsexo">sexo</label>
+																<input type="text" id="idsexo" name="sexo" maxlength="1">
+												</p>
+												<p>
+																<label for="idcontacto">telefone</label>
+																<input type="number" id="idcontacto" name="telefone" required="required" max="1000000000" min="899999999">
+												</p>
+												<p>
+																<label for="idmail">e-mail</label>
+																<input type="text" id="idmail" name="email" required="@gmail.com" minlength="10">
+												</p>
+												<p>
+																<input type="submit" value="cadastrar">
+												</p>
+								</form>
+				</section>
+</body>
+</html>

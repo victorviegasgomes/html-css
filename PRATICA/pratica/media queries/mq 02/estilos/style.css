@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* estilos gerais para o projecto */
+
+*{
+				padding: 0px;
+				margin: 0px;
+				font-family: arial, helvetica, sans-serif;
+}
+html, body{
+				width: 100vw;
+				height: 100vh;
+				background-color: #233EFF;
+				background-size: contain;
+				background-repeat: no-repeat;
+}
+h1{
+				color: white;
+				text-shadow: 2px 2px 3px rgb(155, 155, 255);
+				padding: 10px;
+}

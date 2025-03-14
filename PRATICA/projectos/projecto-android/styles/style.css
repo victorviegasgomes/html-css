@@ -45,6 +45,10 @@ nav{
 				padding: 10px;
 				box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.285);
 }
+a{
+				text-decoration: none;
+				color: blue;
+}
 nav >a{
 				text-decoration: none;
 				color: #2FA866;

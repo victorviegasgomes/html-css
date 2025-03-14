@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+				<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1.0">
+				<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+				<title>formulários</title>
+</head>
+<body>
+				<h1>trabalhando com formulários</h1>
+				<form action="cad.php" autocomplete="off">
+								<p>
+												<label for="select">província</label>
+												<select id="select" name="selecionar">
+																<optgroup><label>região sudoeste</label>
+																				<option value="sudoeste">Luanda</option>
+																				<option value="sudoeste">Zaire</option>
+																				<option value="sudoeste">Bengo</option>
+																</optgroup>
+																<optgroup><label>região norte</label>
+																				<option value="norte">Huila</option>
+																				<option value="norte">Cunene</option>
+																				<option value="norte">Cuando Cubango</option>
+																</optgroup>
+												</select>
+								</p>
+								<p>
+												<label for="texto">profição</label>
+												<input type="text" name="texto" id="texto" list="lista">
+												<datalist id="lista">
+																<option>professor</option>
+																<option>médico</option>
+																<option value="dev">desenvolvedor</option>
+																<option value="ti">tecnico de informação</option>
+												</datalist>
+								</p>
+								<p>
+												<textarea name="area" id="texto" cols="40" rows="20">escreva alguma coisa: </textarea>
+								</p>
+								<input type="submit" value="enviar">
+								<input type="reset" value="limpar">
+				</form>
+</body>
+</html>
