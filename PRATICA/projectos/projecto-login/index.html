@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+				<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width,initial-scale=1.0">
+				<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+				<link rel="stylesheet" href="styles/style.css"/>
+				<link rel="stylesheet" href="style/mediaqueries.css"/>
+				<title>página de login</title>
+</head>
+<body>
+				<main>
+								<section>
+												<div id="imagem">
+																
+												</div>
+												<div id="formulario">
+																<h1>login</h1>
+																<p>seja bem vindo(a) de volta, faça login para fazer alterações nas suas configurações</p>
+																
+																<form action="login.php" method="post" autocomplete="on">
+																				<div class="campo">
+																								<input type="email" name="email" id="idmail" placeholder="digite seu email" autocomplete="email" required="required" maxlength="30" minlength="10">
+																								<label for="idmail">login</label>
+																				</div>
+																				<div class="campo">
+																								<input type="password" name="senha" id="idsenha" placeholder="digite sua senha" autocomplete="current-password" required="required" minlength="8">
+																								<label for="idsenha">senha</label>
+																				</div>
+																				<input type="submit" value="entrar">
+																				<a href="esqueci.html" class="botao">esqueci a senha</a>
+																</form>
+												</div>
+								</section>
+				</main>
+</body>
+</html>
