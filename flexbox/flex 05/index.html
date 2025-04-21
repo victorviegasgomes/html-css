@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 500px)">
+  <script src="js/index.js"></script>
+  <title>flex 05</title>
+</head>
+<body>
+	<header>
+  	  <h1>Meu Site</h1>
+  	  <nav>
+  	    <a href="#" target="_blank">opção 1</a>
+  	    <a href="#" target="_blank">opção 2</a>
+  	    <a href="#" target="_blank">opção 3</a>
+  	    <a href="#" target="_blank">opção 4</a>
+  	    <a href="#" target="_blank">opção 5</a>
+  	    <a href="#" target="_blank">opção 6</a>
+  	  </nav>
+	  </header>
+	  <main>
+	    <p>
+        Como funcionam os vouchers de operadora?
+    
+        Um voucher(ou cartão de recarga) é basicamente um código único que, quando digitado no sistema da operadora, ativa uma quantidade específica de saldo ou pacote de dados no número do cliente.
+    
+        Formato dos códigos (ex: 13 dígitos)
+    
+        - Os códigos de 13 dígitos são gerados por algoritmos criptográficos pseudoaleatórios, com regras internas que garantem que:
+          - Cada código seja único.
+          - O código não seja fácil de adivinhar ou gerar aleatoriamente.
+        
+        - Sim, o número de combinações é limitado, mas com 13 dígitos numéricos (0 a 9), são possíveis 10 trilhões de combinações (10¹³), o que é um espaço imenso!
+    
+        Como a operadora sabe se o voucher já foi usado?
+      </p>
+      <p>
+        Esse é o papel de um banco de dados central da operadora. Veja como funciona:
+    
+        1. Cadastro do voucher
+        - Cada código é gerado e registrado com status:
+          - Não usado
+          - Usado
+          - Expirado
+          - Bloqueado
+    
+        2. Validação
+        - Quando você digita o código (ex: via SMS, USSD ou app), a operadora:
+          1. Consulta o código no banco de dados.
+          2. Verifica se está marcado como “não usado”.
+          3. Se estiver válido, associa o crédito à sua linha e altera o status para “usado”.
+    
+        3. Bloqueio contra duplicação
+        - Mesmo que outra pessoa tenha o mesmo código e tente usar, o sistema já vai recusar com algo como:  
+          > "Este código já foi utilizado."
+      
+        E se alguém tenta gerar códigos por força bruta?
+        
+        - As operadoras usam validação interna e checksum (códigos com padrões específicos), então gerar um código válido aleatoriamente é muito difícil.
+        - Muitas operadoras também implementam limites de tentativas e monitoramento de fraude.
+      </p>
+      <p>
+        Curiosidade:
+        Alguns vouchers também incluem dados como tipo de pacote, valor, validade, tudo embutido e identificado na ativação — e a numeração pode seguir um padrão hierárquico interno, como:
+    
+        - 3 primeiros dígitos: tipo de plano
+        - 4 seguintes: lote/distribuidor
+        - 6 últimos: número sequencial
+    
+        Se quiser, posso montar um exemplo de como esse sistema funcionaria em pseudocódigo ou banco de dados simples, tipo um mini-sistema de recarga. Quer ver?
+      </p>
+	  </main>
+</body>
+</html>
