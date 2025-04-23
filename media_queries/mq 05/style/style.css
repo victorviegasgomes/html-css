@@ -27,12 +27,16 @@ header > h1{
     border-radius: 5px;
     background-color: rgb(83, 83, 83);
     border: 1px solid black;
+    transition: .3s;
 }
 main{
     max-width: 700px;
     margin: auto;
     background-color: white;
     padding: 10px;
+}
+#icones {
+  display: block;
 }
 p{
     text-align: justify;

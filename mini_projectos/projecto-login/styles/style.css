@@ -1,84 +1,84 @@
 @charset "utf-8";
 
 * {
-				margin: 0px;
-				padding: 0px;
-				font-family: sans-serif, roboto;
-				box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif, roboto;
+	box-sizing: border-box;
 }
 html, body{
-				width: 100vw;
-				height: 100vh;
+	width: 100vw;
+	height: 100vh;
 }
 body{
-				background-color: #5f2c82;
+	background-color: #5f2c82;
 }
 main{
-				width: 100vw;
-				height: 100vh;
-				position: relative;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
 }
 section{
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-				background-color: white;
-				height: 525px;
-				width: 280px;
-				overflow: hidden;
-				border-radius: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	height: 525px;
+	width: 280px;
+	overflow: hidden;
+	border-radius: 20px;
 }
 section > div#imagem{
-				height: 240px;
-				background: black url("../imagem/back.jpg") left bottom no-repeat;
-				background-size: cover;
-				display: block;
+	height: 240px;
+	background: black url("../imagem/back.jpg") left bottom no-repeat;
+	background-size: cover;
+	display: block;
 }
 h1{
-				text-align: center;
+	text-align: center;
 }
 section > div#formulario{
-				padding: 10px;
-				display: block;
-				text-align: justify;
+	padding: 10px;
+	display: block;
+	text-align: justify;
 }
 div.campo > label{
-				display: none;
+	display: none;
 }
 form > div.campo{
-				background-color: #5f2c82;
-				width: 100%;
-				display: block;
-				height: 40px;
-				margin: 5px 0px;
-				padding-top: 10px;
-				text-align: center;
-				border-radius: 5px;
-				border: 1px solid black;
+	background-color: #5f2c82;
+	width: 100%;
+	display: block;
+	height: 40px;
+	margin: 5px 0px;
+	padding-top: 10px;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid black;
 }
 form > input[type="submit"]{
-				display: block;
-				width: 100%;
-				height: 40px;
-				background-color: #49a09d;
-				border: none;
-				font-size: 1em;
-				border-radius: 5px;
-				margin-top: 5px;
-				border: 1px solid black;
+	display: block;
+	width: 100%;
+	height: 40px;
+	background-color: #49a09d;
+	border: none;
+	font-size: 1em;
+	border-radius: 5px;
+	margin-top: 5px;
+	border: 1px solid black;
 }
 form > a.botao{
-				text-align: center;
-				display: block;
-				text-decoration: none;
-				width: 100%;
-				height: 40px;
-				font-size: 1em;
-				background-color: white;
-				border-radius: 5px;
-				margin-top: 5px;
-				padding-top: 10px;
-				border: 1px solid black;
-				box-shadow: 1px 0px 1px #49a09d;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	width: 100%;
+	height: 40px;
+	font-size: 1em;
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 5px;
+	padding-top: 10px;
+	border: 1px solid black;
+	box-shadow: 1px 0px 1px #49a09d;
 }

@@ -1,2 +1,50 @@
+@media screen and (min-width: 481px) and (max-width: 1024px){
+  body {
+    background: url("../imagens/back-tablet.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  #phone{display: none;}
+  #tablet{display: block;}
+  #print{display: none;}
+  #pc{display: none;}
+  #tv{display: none;}
+}
 
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+  body {
+    background-image: url("../imagens/back-pc.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #pc {
+    display: block;
+  }
+  #tablet {
+    display: none;
+  }
+  #phone {
+    display: none;
+  }
+}
 
+@media screen and (min-width: 1367px) and (max-width: 1920px) {
+  body {
+    background-image: url("../imagens/back-tv.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #pc {
+    display: none;
+  }
+  #tablet {
+    display: none;
+  }
+  #phone {
+    display: none;
+  }
+  #tv {
+    display: block;
+  }
+}

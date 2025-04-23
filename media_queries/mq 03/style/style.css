@@ -1,43 +1,43 @@
 @media all{
-				@charset "utf-8";
+	@charset "utf-8";
 
 /* estilos gerais para o projecto */
 
 *{
-				padding: 0px;
-				margin: 0px;
-				font-family: arial, helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+	font-family: arial, helvetica, sans-serif;
 }
 html, body{
-				width: 100vw;
-				height: 100vh;
-				background-color: #233EFF;
-				background-size: contain;
-				background-repeat: no-repeat;
+	width: 100vw;
+	height: 100dvh;
+	background-color: #233EFF;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 h1{
-				color: white;
-				text-shadow: 2px 2px 3px rgb(155, 155, 255);
-				padding: 10px;
+	color: white;
+	text-shadow: 2px 2px 3px rgb(155, 155, 255);
+	padding: 10px;
 }
 }
 @media screen and (orientation: portrait){
-				@charset "utf-8";
+	@charset "utf-8";
 
 /* estilos para tela em pé */
 
-body{
-				background-image: url("../imagens/cev-portrait.jpg");
-				background-position: center bottom;
-}
+  body{
+	  background-image: url("../imagens/cev-portrait.jpg");
+	  background-position: center bottom;
+  }
 }
 @media screen and (orientation: landscape){
-				@charset "utf-8";
+	@charset "utf-8";
 
 /* estilos para telas na horizontal */
 
-body{
-				background-image: url("../imagens/cev-landscape.jpg");
-				background-position: left bottom;
-}
+  body{
+  	background-image: url("../imagens/cev-landscape.jpg");
+  	background-position: left bottom;
+  }
 }
