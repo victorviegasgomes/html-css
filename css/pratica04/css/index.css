@@ -1,0 +1,18 @@
+#ex1 {
+  border: 10px dotted black;
+  padding:35px;
+  background: #0F0;
+  background-clip: border-box;
+}
+#ex2 {
+  border: 10px dotted black;
+  padding:35px;
+  background: #0F0;
+  background-clip: padding-box;
+}
+#ex3 {
+  border: 10px dotted black;
+  padding:35px;
+  background: #0F0;
+  background-clip: content-box;
+}

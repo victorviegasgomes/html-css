@@ -1,0 +1,21 @@
+body {
+  background-color: #aaa;
+}
+header {
+  background-color: #0f0;
+}
+section {
+  background-color: #00f;
+}
+h1 {
+  background-color: #ff0;
+}
+h2 {
+  background-color: #0ff;
+}
+p {
+  background-color: #f0f;
+}
+* {
+  color: #000;
+}
