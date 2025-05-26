@@ -1,0 +1,13 @@
+.container {
+  border: 2px dashed #000;
+  height: 250px;
+  display: grid;
+  grid-template: repeat(3, auto) / repeat(3, auto);
+  gap: 5px;
+  place-items: start center;
+  place-content: space-between end;
+}
+
+.item {
+  border: 2px solid #f00;
+}

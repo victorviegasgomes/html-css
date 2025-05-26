@@ -1,0 +1,19 @@
+.container {
+  /*height: 250px;*/
+  border: 1px solid #00f;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 80px);
+  grid-auto-rows: 80px;
+  grid-auto-flow: column;
+  grid-auto-columns: 100px;
+  gap: 5px;
+  align-items: normal;
+  justify-items: normal;
+  align-content: normal;
+  justify-content: normal;
+}
+
+.item {
+  border: 1px solid #f00;
+}
